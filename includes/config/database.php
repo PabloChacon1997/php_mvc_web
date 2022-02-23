@@ -1,7 +1,7 @@
 <?php 
 
 function conectarDB(): mysqli {
-  $db = new mysqli('localhost:3307', 'root', 'sasa', 'bienes_raices');
+  $db = new mysqli('<host name>', '<user>', '<password>', '<database name>');
   $db->set_charset("utf8");
 
   if (!$db) {
