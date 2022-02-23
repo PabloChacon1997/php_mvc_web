@@ -20,3 +20,8 @@ Una vez accedido a public ejecutar en el cmd o la consola de windows el siguient
 php -S localhost:3000
 """
 El puesto se puede cambiar: localhost:<tu puerto>
+
+En caso de errores con la carpeta public, copiar los archivos dentro de la carpeta extras y pegarlos dentro de la carpeta public
+  
+Este proyecto funciona de manera local por lo que es necesario una Base de Datos local en MySQL.
+En la carpeta includes/config/database.php cambiar las configuraciones por las suyas, el puerto, usuario y constraseña de MySQL
